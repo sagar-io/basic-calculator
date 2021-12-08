@@ -1,0 +1,49 @@
+:root{
+
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(44, 53, 61);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calc{
+    font-size: 1.8rem;
+    border: 5px groove black;
+    padding: 10px;
+    box-shadow: 0 0 8px 0px gray;
+}
+
+.output-section{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(148, 67, 241);
+    margin-bottom: 1rem; 
+    box-shadow: 0 0 8px 0px rgb(17, 14, 14);
+
+}
+
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.keypad>div{
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px gray;
+
+}
