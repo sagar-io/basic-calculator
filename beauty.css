@@ -1,5 +1,5 @@
 :root{
-
+  
 }
 *{
     box-sizing: border-box;
@@ -30,7 +30,14 @@ body{
     background-color: rgb(148, 67, 241);
     margin-bottom: 1rem; 
     box-shadow: 0 0 8px 0px rgb(17, 14, 14);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
 
+.previousOperand, .currentOperand{
+    
 }
 
 .keypad{
@@ -45,5 +52,4 @@ body{
     padding: 10px;
     cursor: pointer;
     box-shadow: 0 0 5px 0px gray;
-
 }
