@@ -36,10 +36,6 @@ body{
     
 }
 
-.previousOperand, .currentOperand{
-    
-}
-
 .keypad{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
